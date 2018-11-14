@@ -1,0 +1,36 @@
+.display {
+  height: 70vh;
+  width: 50vw;
+  background-color: #10397c;
+  margin-left: 25vw;
+  margin-top: 15vh;
+  border: 2px dashed white;
+}
+
+.game {
+  height: 60vh;
+  width: 45vw;
+  background-color: #bad0f4;
+  margin-left: 3vw;
+  margin-top: 5vh;
+}
+
+.display, .game {
+  border-radius: 10%;
+}
+
+#sleepy-person, #bed {
+  position: absolute;
+}
+
+#sleepy-person {
+  left: 30vw;
+  height: 10vh;
+  bottom: 25vh;
+}
+
+#bed {
+  right: 28vw;
+  height: 15vh;
+  bottom: 20vh;
+}
